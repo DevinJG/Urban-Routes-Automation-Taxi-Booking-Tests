@@ -1,4 +1,4 @@
-# Taxi Booking Automation Test
+# Urban Routes Automation Test
 
 ## Description
 This project is aimed at automating the testing of a taxi booking web application. The automation tests various functionalities of the application, such as filling addresses, selecting plans, adding credit cards, and placing orders. The tests are written using Mocha and WebDriverIO
