@@ -13,15 +13,6 @@ describe('Create an order', () => {
         await expect(phoneNumberModal).toBeExisting();
     });
 
-    /*it('should save the phone', async () => {
-        await browser.url(`/`);
-        await page.fillAddresses('East 2nd Street, 601', '1300 1st St');
-        const phoneNumber = helper.getPhoneNumber("+1");
-        await page.submitPhoneNumber(phoneNumber);
-        const phoneNumberElement = await helper.getElementByText(phoneNumber);
-        await expect(phoneNumberElement).toBeExisting();
-    });
-    */
     it('should set the address', async () => {
         await browser.url(`/`);
         await page.fillAddresses('East 2nd Street, 601', '1300 1st St');
