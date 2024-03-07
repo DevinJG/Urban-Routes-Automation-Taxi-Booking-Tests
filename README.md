@@ -14,5 +14,5 @@ To run the tests locally, follow these steps:
 1. Clone the project repository to your local machine.
 2. Navigate to the project directory in the terminal.
 3. Install dependencies by running:
-   npm install
-   npm run wdio - "project folder name to run test"
+   -npm install
+   -npm run wdio - "project folder name to run test"
